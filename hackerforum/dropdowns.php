@@ -1,4 +1,4 @@
-<div class="d-flex justify-content-center align-items-center " style="background-image:url(assets/img/bg2.jpg) ;width: 98.9vw; height: 50vh; background-size: 98.9vw 50vh;">
+<div class="d-flex justify-content-center align-items-center " style="background-image:url(assets/img/bg2.gif) ;width: 98.9vw; height: 50vh; background-size: 98.9vw 50vh;">
 </div>
 <!-- Jumbotron -->
 </header>
