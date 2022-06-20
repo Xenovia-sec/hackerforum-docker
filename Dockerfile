@@ -38,7 +38,7 @@ COPY run.sh /usr/sbin/
 RUN a2enmod rewrite
 RUN chmod +x /usr/sbin/run.sh
 RUN chown -R www-data:www-data /var/www/html
-RUN chmod 777 -R /var/www/html
+RUN chmod -R 777 /var/www/html
 
 
 

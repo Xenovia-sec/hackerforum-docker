@@ -88,12 +88,6 @@ include('dropdowns.php');
                     </div>
                     <p class="mb-1"><small>Combolists are posted here.</small></p>
                 </a>
-                <a href="threads.php?topic=10" class="list-group-item list-group-item-action list-group-custom" style="border-radius: 10px; border-bottom: 1px solid grey;">
-                    <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">Dumped Doxes</h5>
-                    </div>
-                    <p class="mb-1"><small>Link your doxes here, always use a pastebin.</small></p>
-                </a>
             </div>
         </div>
         <!--Marketplace-->
