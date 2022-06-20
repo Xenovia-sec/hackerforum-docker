@@ -8,6 +8,13 @@ include('dropdowns.php');
 ?>
 <div class="main-content container-fluid justify-content-around d-flex mt-4 mb-4">
     <div class="col-md-8 main-wrapper-custom ">
+    <?php
+            if (isset($_GET["msg"]) && $_GET["msg"]== 1){
+                echo '<div class="alert alert-danger" role="alert">
+                        <strong> Permisson Alert </strong>You can\'t get into VIP section 
+                    </div>';
+            }
+        ?>
         <div class="category-wrapper" style="border-radius: 10px;">
             <div class="category-header list-group-item list-group-header-custom" style="border-bottom: 0.1rem solid red; background-image: url(assets/img/red-matrix-bg.gif);">
                 <h3>General</h3>

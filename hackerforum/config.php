@@ -23,7 +23,7 @@ class JWT
             'iss' => 'blacksea.cor', // token issuer
             'aud' => 'blacksea.onion' // token audience
         ];
-        $this->secret = 'HackKaradeniz{HackKaradenizFlag1}';
+        $this->secret = 'HK{Karaelmas_JWT_is_here}';
     }
 
     /**

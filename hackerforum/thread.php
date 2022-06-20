@@ -24,7 +24,7 @@ if (isset($_GET['thread']) && is_numeric($_GET['thread'])) {
         ]);
         $result = $q->fetch();
         if ($result['role'] == 'rookie'){
-            header("Location: index.php");
+            header("Location: index.php?msg=1");
             exit;
         }
     }
