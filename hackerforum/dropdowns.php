@@ -134,17 +134,6 @@
                     </ul>
                 </li>
                 <!-- Navbar dropdown -->
-                <li class="nav-item dropdown d-flex align-items-center">
-                    <a class="nav-link dropdown-toggle navbar-text" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <i class="fa-solid fa-server"></i> Example Database Dumps (Guests can see)
-                    </a>
-                    <!-- Dropdown menu -->
-                    <ul class="dropdown-menu dropdown-custom" aria-labelledby="navbarDropdown">
-                        <li>
-                            <a class="dropdown-item dropdown-text" href="exampledb.php?db=sampledatabase.sql">Sample Database 1</a>
-                        </li>
-                    </ul>
-                </li>
 
             </ul>
             <!-- Left links -->
