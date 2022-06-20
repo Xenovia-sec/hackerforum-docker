@@ -24,19 +24,19 @@
                     <!-- Dropdown menu -->
                     <ul class="dropdown-menu dropdown-custom dropdown-custom" aria-labelledby="navbarDropdown">
                         <li>
-                            <a class="dropdown-item dropdown-text dropdown-text" href="#">All Threads</a>
+                            <a class="dropdown-item dropdown-text dropdown-text" href="index.php">All Threads</a>
                         </li>
                         <li>
-                            <a class="dropdown-item dropdown-text" href="#">Announcements</a>
+                            <a class="dropdown-item dropdown-text" href="threads.php?topic=1">Announcements</a>
                         </li>
                         <li>
-                            <a class="dropdown-item dropdown-text" href="#">Introductions</a>
+                            <a class="dropdown-item dropdown-text" href="threads.php?topic=2">Introductions</a>
                         </li>
                         <li>
-                            <a class="dropdown-item dropdown-text" href="#">Worlds News</a>
+                            <a class="dropdown-item dropdown-text" href="threads.php?topic=3">Worlds News</a>
                         </li>
                         <li>
-                            <a class="dropdown-item dropdown-text" href="#">The Lounge</a>
+                            <a class="dropdown-item dropdown-text" href="threads.php?topic=5">Anime & Manga</a>
                         </li>
                     </ul>
                 </li>
@@ -47,16 +47,16 @@
                     <!-- Dropdown menu -->
                     <ul class="dropdown-menu dropdown-custom" aria-labelledby="navbarDropdown">
                         <li>
-                            <a class="dropdown-item dropdown-text" href="#">Databases</a>
+                            <a class="dropdown-item dropdown-text" href="threads.php?topic=6">Databases</a>
                         </li>
                         <li>
-                            <a class="dropdown-item dropdown-text" href="#">Other Leaks</a>
+                            <a class="dropdown-item dropdown-text" href="threads.php?topic=7">Other Leaks</a>
                         </li>
                         <li>
-                            <a class="dropdown-item dropdown-text" href="#">Dehashed Combolist</a>
+                            <a class="dropdown-item dropdown-text" href="threads.php?topic=8">Dehashed Combolist</a>
                         </li>
                         <li>
-                            <a class="dropdown-item dropdown-text" href="#">Dumped Boxes</a>
+                            <a class="dropdown-item dropdown-text" href="threads.php?topic=9">Dumped Boxes</a>
                         </li>
                     </ul>
                 </li>
@@ -67,19 +67,19 @@
                     <!-- Dropdown menu -->
                     <ul class="dropdown-menu dropdown-custom" aria-labelledby="navbarDropdown">
                         <li>
-                            <a class="dropdown-item dropdown-text" href="#">Leaks Market</a>
+                            <a class="dropdown-item dropdown-text" href="threads.php?topic=12">Leaks Market</a>
                         </li>
                         <li>
-                            <a class="dropdown-item dropdown-text" href="#">Combo Market</a>
+                            <a class="dropdown-item dropdown-text" href="threads.php?topic=12">Combo Market</a>
                         </li>
                         <li>
-                            <a class="dropdown-item dropdown-text" href="#">CC Market</a>
+                            <a class="dropdown-item dropdown-text" href="threads.php?topic=12">CC Market</a>
                         </li>
                         <li>
-                            <a class="dropdown-item dropdown-text" href="#">Hosting/VPS</a>
+                            <a class="dropdown-item dropdown-text" href="threads.php?topic=13">Hosting/VPS</a>
                         </li>
                         <li>
-                            <a class="dropdown-item dropdown-text" href="#">Security & Anonymity</a>
+                            <a class="dropdown-item dropdown-text" href="threads.php?topic=15">Security & Anonymity</a>
                         </li>
                     </ul>
                 </li>
@@ -90,16 +90,16 @@
                     <!-- Dropdown menu -->
                     <ul class="dropdown-menu dropdown-custom" aria-labelledby="navbarDropdown">
                         <li>
-                            <a class="dropdown-item dropdown-text" href="#">Doxing Tutorials</a>
+                            <a class="dropdown-item dropdown-text" href="threads.php?topic=18">Doxing Tutorials</a>
                         </li>
                         <li>
-                            <a class="dropdown-item dropdown-text" href="#">Coding Tutorials</a>
+                            <a class="dropdown-item dropdown-text" href="threads.php?topic=19">Coding Tutorials</a>
                         </li>
                         <li>
-                            <a class="dropdown-item dropdown-text" href="#">General Tutorials</a>
+                            <a class="dropdown-item dropdown-text" href="threads.php?topic=20">General Tutorials</a>
                         </li>
                         <li>
-                            <a class="dropdown-item dropdown-text" href="#">SE Tutorials</a>
+                            <a class="dropdown-item dropdown-text" href="threads.php?topic=21">SE Tutorials</a>
                         </li>
                     </ul>
                 </li>
@@ -110,7 +110,7 @@
                     <!-- Dropdown menu -->
                     <ul class="dropdown-menu dropdown-custom" aria-labelledby="navbarDropdown">
                         <li>
-                            <a class="dropdown-item dropdown-text" href="#">Scam Reports</a>
+                            <a class="dropdown-item dropdown-text" href="threads.php?topic=22">Scam Reports</a>
                         </li>
 
                     </ul>
@@ -123,13 +123,13 @@
                     <!-- Dropdown menu -->
                     <ul class="dropdown-menu dropdown-custom" aria-labelledby="navbarDropdown">
                         <li>
-                            <a class="dropdown-item dropdown-text" href="#">VIP Upgrades</a>
+                            <a class="dropdown-item dropdown-text" href="threads.php?topic=23">VIP Upgrades</a>
                         </li>
                         <li>
-                            <a class="dropdown-item dropdown-text" href="#">VIP News</a>
+                            <a class="dropdown-item dropdown-text" href="threads.php?topic=24">VIP News</a>
                         </li>
                         <li>
-                            <a class="dropdown-item dropdown-text" href="#">VIP Markets</a>
+                            <a class="dropdown-item dropdown-text" href="threads.php?topic=25">VIP Markets</a>
                         </li>
                     </ul>
                 </li>
@@ -146,22 +146,7 @@
                         <!-- Dropdown menu -->
                         <ul class="dropdown-menu dropdown-custom" aria-labelledby="navbarDropdown">
                             <li>
-                                <a class="dropdown-item dropdown-text" href="#">User Profile</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item dropdown-text" href="#">Threads</a>
-                            </li>
-                            <li>
                                 <a class="dropdown-item dropdown-text" href="messages.php">Messages</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item dropdown-text" href="#">Reputation</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item dropdown-text" href="#">Friends</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item dropdown-text" href="#">Settings</a>
                             </li>
                             <li>
                                 <a class="dropdown-item dropdown-text" href="logout.php">Logout</a>
