@@ -127,24 +127,6 @@ include('dropdowns.php');
                     </div>
                     <p class="mb-1"><small>Programming services for sale. e.g. PHP/Python.</small></p>
                 </a>
-                <a href="threads.php?topic=15" class="list-group-item list-group-item-action list-group-custom" style="border-radius: 10px; border-bottom: 1px solid grey;">
-                    <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">Security and Anonymity</h5>
-                    </div>
-                    <p class="mb-1"><small>Security services for sale. e.g. VPN/Proxies.</small></p>
-                </a>
-                <a href="threads.php?topic=16" class="list-group-item list-group-item-action list-group-custom" style="border-radius: 10px; border-bottom: 1px solid grey;">
-                    <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">Graphics</h5>
-                    </div>
-                    <p class="mb-1"><small>Graphics design services for sale. e.g. Photoshop/Blender</small></p>
-                </a>
-                <a href="threads.php?topic=17" class="list-group-item list-group-item-action list-group-custom" style="border-radius: 10px; border-bottom: 1px solid grey;">
-                    <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">Vouch Section</h5>
-                    </div>
-                    <p class="mb-1"><small>Vouch for people or give out vouch copies!</small></p>
-                </a>
             </div>
         </div>
         <!--Tutorials-->

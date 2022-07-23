@@ -56,13 +56,13 @@ include('dropdowns.php');
                 if ($result['user_id'] == $jwt_userid || $result['send_to'] == $jwt_userid){
                     if($result['send_to'] == $jwt->get_userid($_COOKIE['auth_type'])){
                         echo '<div class="message-row row justify-content-start mt-2">
-                        <div class="message text-center" style="background-color: red;border-top-right-radius: 25px;border-bottom-right-radius: 25px;width: fit-content;max-width: 500px;">
+                        <div class="message text-center" style="font-color: whitesmoke;background-color: grey;border-top-right-radius: 25px;border-bottom-right-radius: 25px;width: fit-content;max-width: 500px;">
                             <p class="mt-3"><strong>'.$result['message'].'</strong></p>
                         </div>
                     </div>';
                     }else{
                         echo '<div class="message-row row justify-content-end mt-2">
-                        <div class="message " style="background-color: red;border-top-left-radius: 25px;border-bottom-left-radius: 25px;width: fit-content;max-width: 500px;">
+                        <div class="message " style="font-color: whitesmoke;background-color: red;border-top-left-radius: 25px;border-bottom-left-radius: 25px;width: fit-content;max-width: 500px;">
                             <p class="mt-3"><strong>'.$result['message'].'</strong></p>
                         </div>
                     </div>';
