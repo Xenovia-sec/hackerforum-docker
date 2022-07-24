@@ -32,7 +32,7 @@
                         <p style="text-align:justify;">
                             You can report the service content on our site to our information [at] blackseaforum.onion
                             e-mail address. Please report Abuse, DMCA, Fraud, Harassment, Crack or Any Illegal Activity
-                            to info [at] blackseaforum.onion.
+                            to info [at] blacksea55xzy15yv9804u0uluxgq2k.onion.
                         </p>
                     </div>
                     <!-- Grid column -->
@@ -111,29 +111,12 @@
         <!-- Copyright -->
         <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
             © 2022 Copyright:
-            <a class="text-reset fw-bold" href="https://mdbootstrap.com/">link</a>
+            <a class="text-reset fw-bold" href="blacksea55xzy15yv9804u0uluxgq2k.onion">BlackSea</a>
         </div>
         <!-- Copyright -->
     </footer>
     <!-- Footer -->
 
 </body>
-<!--            <ul class="list-group" style="background-color: black;">
-                <li class="list-group-item">
-                    <h2>Category</h2>
-                    <ul class="list-group">
-                        <li clas="list-group-item">
-                            <a href="http://"><h5>Topic</h5></a>
-                            <div>
-                                Desc
-                            </div>
-                        </li>
-                        <li clas="list-group-item"><a href="http://">Topic</a></li>
-                        <li clas="list-group-item"><a href="http://">Topic</a></li>
-                        <li clas="list-group-item"><a href="http://">Topic</a></li>
-
-                    </ul>
-                </li>
-            </ul>-->
 
 </html>

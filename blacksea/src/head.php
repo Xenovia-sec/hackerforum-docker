@@ -102,9 +102,6 @@
 </head>
 
 <body>
-    <!--- <div class="container p-5 text-center"><img width="250px" height="125px"
-            src="https://yeppuu.com/uploads/images/2022/02/image_750x500_6210cdeaa97dc.jpg" class="rounded-circle" ">
-        </div> --->
     <header>
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-custom">
@@ -119,17 +116,17 @@
                                 <i class="fa-solid fa-house"></i> Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link navbar-text" href="threads.php?topic=3"><i class="fa-solid fa-newspaper"></i> What's
+                            <a class="nav-link navbar-text" href="#"><i class="fa-solid fa-newspaper"></i> What's
                                 News</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link navbar-text" href="members.php"><i class="fa-solid fa-user"></i> Member List</a>
+                            <a class="nav-link navbar-text" href="#"><i class="fa-solid fa-user"></i> Member List</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link navbar-text" href="threads.php?topic=7"><i class="fa-solid fa-database"></i> Databases</a>
+                            <a class="nav-link navbar-text" href="#"><i class="fa-solid fa-database"></i> Databases</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link navbar-text" href="upgrades.php"><i class="fa-solid fa-star"></i> Upgrades</a>
+                            <a class="nav-link navbar-text" href="#"><i class="fa-solid fa-star"></i> Upgrades</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link navbar-text" href="#"><i class="fa-solid fa-plus"></i> Extras</a>

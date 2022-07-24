@@ -137,7 +137,11 @@
 
             </ul>
             <!-- Left links -->
-            <form class="d-flex">
+            <?php
+            require_once('config.php');
+            if (isset($_COOKIE['auth_type'])) {
+                if ($contt = $jwt->is_valid($_COOKIE['auth_type'])) {
+                    echo '<form class="d-flex">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item dropdown d-flex align-items-center mr-2">
                         <a class="nav-link dropdown-toggle navbar-text" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -156,7 +160,10 @@
                 </ul>
                 <input class="form-control me-2" type="text" placeholder="Search">
                 <button style="background-color: red; border-color: black;" class="btn btn-primary" type="button">Search</button>
-            </form>
+            </form>';
+                }
+            }
+            ?>
         </div>
         <!-- Collapsible wrapper -->
     </div>

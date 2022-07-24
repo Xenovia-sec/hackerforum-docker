@@ -29,9 +29,6 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
 
     header("Location: index.php");
     exit;
-  } else {
-    echo '<h1>wrong username or pass</h1>';
-    echo md5("admin");
   }
 }
 

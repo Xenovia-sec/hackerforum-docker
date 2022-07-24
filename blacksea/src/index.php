@@ -1,9 +1,6 @@
 <?php
 require_once("DBconnect.php");
-//$date = date('d-m-Y H:i:s',time());
 require_once('head.php');
-?>
-<?php
 include('dropdowns.php');
 ?>
 <div class="main-content container-fluid justify-content-around d-flex mt-4 mb-4">
@@ -20,30 +17,6 @@ include('dropdowns.php');
                 <h3>General</h3>
             </div>
             <div class="list-group" style="border-radius: 10px;">
-                <!--Announcement with profile pic
-                 <a href="#" class="list-group-item list-group-item-action list-group-custom list-group-item-custom d-flex"
-                style="border-radius: 10px; border-bottom: 0.1rem solid grey;">
-                <div class="content-col col">
-                    <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">Announcements</h5>
-                    </div>
-                    <p class="mb-1"><small>Descr</small></p>
-                </div>
-                <div class="last-creator col d-flex justify-content-around">
-                    <div class="space col-sm-7">
-
-                    </div>
-                    <img class="col-md-4 col" src="assets/img/lastcreator.jpg" alt="" srcset="" style="width: 50px; border-radius: 50%; height: 50px;">
-                    <div class="creater-info">
-                        Omnipotent
-                        <p><small>5/4/2022</small></p>
-                    </div>
-                    <div class="space col-sm-1">
-
-                    </div>
-                </div>
-                
-            </a> -->
                 <a href="threads.php?topic=1" class="list-group-item list-group-item-action list-group-custom" style="border-radius: 10px; border-bottom: 1px solid grey;">
                     <div class="d-flex w-100 justify-content-between">
                         <h5 class="mb-1">Announcements</h5>
@@ -237,12 +210,6 @@ include('dropdowns.php');
 
     </div>
 </div>
-<!--
-<div class="col-md-2 category-wrapper border-1 border border-danger" style="border-radius: 10px;">
-    <div> Category<div>
-            Topics
-        </div>
-</div>-->
 </div>
 </div>
 <?php
