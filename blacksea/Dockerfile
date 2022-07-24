@@ -32,7 +32,7 @@ ENV DATE_TIMEZONE UTC
 ENV TERM dumb
 
 RUN rm -rf /var/www/html/index.html
-COPY ./hackerforum/ /var/www/html
+COPY ./src/ /var/www/html
 COPY run.sh /usr/sbin/
 
 RUN a2enmod rewrite
@@ -44,7 +44,7 @@ RUN chmod -R 777 /var/www/html
 
 RUN dos2unix /usr/sbin/run.sh
 
-EXPOSE 80
+#EXPOSE 80
 
 CMD ["/usr/sbin/run.sh"]
 

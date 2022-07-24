@@ -1,0 +1,24 @@
+version: "3.8"
+
+services:
+  blacksea:
+    build:
+      context: ./blacksea
+      dockerfile: Dockerfile
+    container_name: blacksea
+    networks:
+      - backend
+
+  nginx:
+    image: nginx:latest
+    container_name: blacksea_nginx
+    volumes:
+      - ./nginx:/etc/nginx/conf.d
+    ports:
+      - 80:80
+    networks:
+      - backend
+
+networks:
+  backend:
+  frontend:
