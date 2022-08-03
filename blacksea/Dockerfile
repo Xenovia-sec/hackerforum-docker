@@ -23,6 +23,7 @@ RUN apt-get install -y \
 	php-sqlite3
 RUN apt-get install apache2 libapache2-mod-php -y
 RUN apt-get install -y dos2unix
+RUN apt-get update && docker-php-ext-install pdo_mysql
 
 ENV LOG_STDOUT **Boolean**
 ENV LOG_STDERR **Boolean**

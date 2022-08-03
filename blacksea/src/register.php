@@ -3,20 +3,23 @@ require_once("DBconnect.php");
 
 session_start();
 
-if (isset($_POST['username']) && isset($_POST['password'])&& isset($_POST['email'])) {
-
+if (isset($_POST['username']) && isset($_POST['password']) && isset($_POST['email'])) {
+  if ($_POST['username'] <> '' && $_POST['password'] <> '' && $_POST['email'] <> '') {
     $q = $db->prepare("INSERT INTO forum_users(username,password,email,role) VALUES (:username,:password,:email,:role)");
     $creds = array(
-        "username"=> htmlspecialchars($_POST['username']),
-        "password"=> md5($_POST['password']),
-        "email"=> htmlspecialchars($_POST['email']),
-        "role"=> 'rookie',
+      "username" => htmlspecialchars($_POST['username']),
+      "password" => md5($_POST['password']),
+      "email" => htmlspecialchars($_POST['email']),
+      "role" => 'rookie',
     );
-    if ($result = $q->execute($creds)){
-        header("Location: login.php");
-        exit;
+    if ($result = $q->execute($creds)) {
+      header("Location: login.php");
+      exit;
     } else {
-    echo '<h1>wrong username or pass</h1>';
+      echo '<h1>wrong username or pass</h1>';
+    }
+  }else {
+    echo '<h1>Empty Inputs</h1>';
   }
 }
 
@@ -46,7 +49,7 @@ if (isset($_POST['username']) && isset($_POST['password'])&& isset($_POST['email
       <div class="controls">
         <form action="" method="post">
           <input type="text" name="username" placeholder="Username" class="form-control inp" />
-          <input type="text" name="email" placeholder="E-Mail" class="form-control inp" />
+          <input type="email" name="email" placeholder="E-Mail" class="form-control inp" />
           <input type="password" name="password" placeholder="Password" class="form-control inp" />
           <button type="submit" class="btn btn-default btn-block btn-custom">Register</button>
           <a href="flag.html" class="forgot-password">Forgot password?</a>

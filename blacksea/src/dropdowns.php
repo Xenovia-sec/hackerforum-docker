@@ -138,7 +138,8 @@
             </ul>
             <!-- Left links -->
             <?php
-            require_once('config.php');
+		require_once('config.php');
+		$jwt = (new JWT());
             if (isset($_COOKIE['auth_type'])) {
                 if ($contt = $jwt->is_valid($_COOKIE['auth_type'])) {
                     echo '<form class="d-flex">
